@@ -1,0 +1,40 @@
+<[autotemplate]
+title={ipv6 lightningtalk}
+author={christoph}
+institute={linuxcafe}
+date={25.1.2013}
+[autotemplate]>
+
+== IPv6 Lightningtalk im Linuxcafe ==
+
+==== Welcome ====
+
+Was ist ipv6, warum ist das toll, und was geht mich das an ?
+
+==== Was \"andert sich f\"ur server-admins ====
+
+* Die IP adresse wird l\"anger
+** IPv4 adresse: 213.128.138.130
+** IPv6 adresse: 2001:868:100:300::130
+* DNS-Typ ist ein anderer. Statt A-Records jetzt AAAA-Record
+* Reverse-DNS ist scheisse zu schreiben
+** 0.3.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.3.0.0.0.1.0.8.6.8.0.1.0.0.2.ip6.arpa
+
+====IPv6 @home====
+* Der DSL-Router bekommt nicht mehr eine IP, sondern viele Netze.
+* Normalerweise /56
+* Daraus kann der dann ein /64 aussuchen und das f\"ur die Ger\"ate im Netz benutzen
+
+====Security====
+* Kein NAT mehr. GROSSARTIG !!!!
+* Mac-Adressen k\"onnten verfolg werden.
+** Security-Extensions
+
+====Design====
+* Kein Arp mehr
+* Autoconfiguration
+** radv
+* Link Local
+** fe80::f2de:f1ff:fe72:71f8/64
+* Multicast
+** all-routers: ff02::2
