@@ -11,11 +11,14 @@ date={25.1.2013}
 
 Was ist ipv6, warum ist das toll, und was geht mich das an ?
 
+==== Offensichtliches ====
+* 128 bit (statt 32 bei ipv4)
+* wird hexadezimal notiert
+** 2001:6f8:11ed::30ba:8df4:6436:8d37
+
 ==== Was \"andert sich f\"ur server-admins ====
 
 * Die IP adresse wird l\"anger
-** IPv4 adresse: 213.128.138.130
-** IPv6 adresse: 2001:868:100:300::130
 * DNS-Typ ist ein anderer. Statt A-Records jetzt AAAA-Record
 * Reverse-DNS ist scheisse zu schreiben
 ** 0.3.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.3.0.0.0.1.0.8.6.8.0.1.0.0.2.ip6.arpa
