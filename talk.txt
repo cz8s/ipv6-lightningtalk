@@ -15,6 +15,7 @@ Was ist ipv6, warum ist das toll, und was geht mich das an ?
 * 128 bit (statt 32 bei ipv4)
 * wird hexadezimal notiert
 ** 2001:6f8:11ed::30ba:8df4:6436:8d37
+* aktueller Stand ipv6-deployment
 
 ==== Was \"andert sich f\"ur server-admins ====
 
