@@ -42,3 +42,6 @@ Was ist ipv6, warum ist das toll, und was geht mich das an ?
 ** fe80::f2de:f1ff:fe72:71f8/64
 * Multicast
 ** all-routers: ff02::2
+
+==== Thanks ====
+https://github.com/cz8s/ipv6-lightningtalk
