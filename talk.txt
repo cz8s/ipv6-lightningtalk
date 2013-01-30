@@ -25,9 +25,8 @@ Was ist ipv6, warum ist das toll, und was geht mich das an ?
 ** 0.3.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.3.0.0.0.1.0.8.6.8.0.1.0.0.2.ip6.arpa
 
 ====IPv6 @home====
-* Der DSL-Router bekommt nicht mehr eine IP, sondern viele Netze.
-* Normalerweise /56
-* Daraus kann der dann ein /64 aussuchen und das f\"ur die Ger\"ate im Netz benutzen
+* Der DSL-Router bekommt nicht mehr eine IP, sondern mehrere Netze.
+* Tunnel
 
 ====Security====
 * Kein NAT mehr. GROSSARTIG !!!!
@@ -40,8 +39,6 @@ Was ist ipv6, warum ist das toll, und was geht mich das an ?
 ** radv
 * Link Local
 ** fe80::f2de:f1ff:fe72:71f8/64
-* Multicast
-** all-routers: ff02::2
 
 ==== Thanks ====
 https://github.com/cz8s/ipv6-lightningtalk
